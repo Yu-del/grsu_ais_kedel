@@ -1,0 +1,10 @@
+domain=kedel.com
+dhcp-range=192.168.6.21,192.168.6.100,24h
+dhcp-host=08:00:27:bb:d7:75,192.168.6.10
+dhcp-option=2,255.255.255.0
+dhcp-option=3,192.168.0.1
+domain=kedel.local
+domain=fin.kedel.local,192.168.6.20/24
+server=/remoteoffice.org/192.168.6.10
+server=/6.168.192.in-addr.arpa/192.168.6.1
+address=/kedel.local/127.0.0.1
